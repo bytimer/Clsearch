@@ -4,7 +4,7 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 
 ## CLaunch 优化配置：
 1. 在 CLaunch 选项/其他：勾选【在相对路径中注册项目】
-2. 将 CLsearch 文件夹放入 CLaunch.exe 所在文件夹中，最终路径是：CLaunch\CLsearch\CLsearch.exe  
+2. 将 CLsearch 文件夹放入 CLaunch.exe 所在文件夹中，最终路径是：CLaunch\CLsearch\CLsearch.exe，双击即可  
 	将 CLsearch.exe 拖入 CLaunch 页面中成为按钮  
 	在 CLaunch 选项/事件: <CLaunch 启动时> 点击【注册】  
 	添加 CLsearch 所在页面，然后在对应项目列双击选择 CLsearch  
@@ -24,8 +24,8 @@ Enter回车键：焦点在输入框时，聚焦到列表控件；焦点在列表
 Tab键：焦点在输入框时，聚焦到列表控件；焦点在列表控件时，切换焦点到输入框。  
 Space空格键：焦点在列表控件时，启动当前项。  
 Backspace / Ctrl+大写 / Ctrl+Enter / 鼠标右键：焦点在列表控件时，打开当前项可执行文件所在路径。  
-Alt+1~9,0: 启动前9项，末项。  
-数字键1~9,0: 焦点在列表控件时，聚焦前9项/末项，并选中；空格键启动当前项。  
+Alt+1\~9,0: 启动前9项，末项。  
+数字键1\~9,0: 焦点在列表控件时，聚焦前9项/末项，并选中；空格键启动当前项。  
 W / S / A / D：焦点在列表控件时，上/下左/右移动。  
 Home / End： 常规响应。  
 F2/Up / F3/Down：上移选择/下移选择  
