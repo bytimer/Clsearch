@@ -43,3 +43,6 @@ F6 / Shift+Enter::{ ; 从exe路径获取exe文件名，输入到编辑框，用�
 列表控件行的提示文本显示出来时，按 Ctrl+C 可复制提示文本。  
 ` 键(数字1左边)：Button按钮的提示文本中如果含有<http(s)://网址>，将被视为官网，直接打开。  
  
+## 引用库：
+- 汉字拼音匹配：https://github.com/Chaoses-Ib/ib-matcher
+- Evarything SDK AHK2：https://www.autohotkey.com/boards/viewtopic.php?t=104445
