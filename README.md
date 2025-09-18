@@ -1,7 +1,9 @@
 # Clsearch
 为搜索CLaunch中的按钮而生的AHK2脚本，代替它的Ctrl+F查找，支持拼音简拼、全拼搜索  
 An alternative tool for the Ctrl+F search function in CLaunch.
-<img width="714" height="220" alt="image" src="https://github.com/user-attachments/assets/895efda4-447d-4b88-873d-6fd1f2e85588" />
+
+<img width="714" height="174" alt="image" src="https://github.com/user-attachments/assets/6f74eb05-f595-4bf8-b8e0-3d250b9cfe82" />
+
 
 ## CLaunch 优化配置：
 1. 在 CLaunch 选项/其他：勾选【在相对路径中注册项目】
