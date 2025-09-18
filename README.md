@@ -4,20 +4,23 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 
 ## CLaunch 优化配置：
 1. 在 CLaunch 选项/其他：勾选【在相对路径中注册项目】
-2. 将 CLsearch 文件夹放入 CLaunch.exe 所在文件夹中，最终路径是：CLaunch\CLsearch\CLsearch.exe，双击即可  
-	将 CLsearch.exe 拖入 CLaunch 页面中成为按钮  
-	在 CLaunch 选项/事件: <CLaunch 启动时> 点击【注册】  
-	添加 CLsearch 所在页面，然后在对应项目列双击选择 CLsearch  
-	这就是让 CLaunch 启动后自动带起 CLsearch。
+2. 将 CLsearch 文件夹放入 CLaunch.exe 所在文件夹中
+   ➤最终路径是：CLaunch\CLsearch\CLsearch.exe，双击即可启动它
+   ➤随Claunch自动启动：
+	将 CLsearch.exe 拖入 CLaunch 页面中成为按钮
+	打开 CLaunch 选项/事件: <CLaunch 启动时> 点击【注册】  
+	添加 CLsearch 所在页面，然后在对应行的项目列双击选择 CLsearch  
+	这就是让 CLaunch 启动后自动带起 CLsearch
 
 ## 使用说明：
+(要修改热键，请自行编辑.ahk脚本)
 全局热键 Win+C 打开搜索窗口，窗口未置顶时失去焦点自动关闭  
 在Claunch窗口激活时，按快捷键 Ctrl+F 弹出搜索窗口，可输入文本进行实时搜索。在搜索窗口按Ctrl+F则关闭。  
-如果在Claunch中未搜到按钮，按 回车键/Tab键 可用Everything进行搜索，结果也显示在列表控件中。  
+如果在Claunch中未搜到按钮，按 回车键/Tab键 会调用Everything搜索该名称的可执行文件，结果也显示在列表控件中。  
 搜索窗口失去焦点后会自动关闭。Ctrl+T 可置顶保持不关闭，与点击右上角⛔按钮等同。  
 搜索历史保存在 RunLog.ini，可手动编辑、删除。  
 RunLog.ini 也记录了程序的启动次数，以便在列表框中把次数多的排序在上面。  
-用CLaunch当前端界面，添加新标签页，再添加按钮后 从Claunch.ini中复制到CLsearch.ini,   
+可以把 CLaunch 当作添加按钮配置的前端界面来用，添加新标签页、添加按钮后 从 Claunch.ini中 复制到 CLsearch.ini,   
 这样可以添加不在Claunch界面中显示的自定义按钮项，启动脚本时预先加入全局按钮数组，只在本搜索框中可被搜到。  
 
 Enter回车键：焦点在输入框时，聚焦到列表控件；焦点在列表控件时，启动当前项 (优先级：光标下的行>选中行>焦点行)。  
