@@ -11,10 +11,10 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 2. 将 CLsearch 文件夹放入 CLaunch.exe 所在文件夹中  
    ➤最终路径是：CLaunch\CLsearch\CLsearch.exe，双击即可启动它  
    ➤随Claunch自动启动：
-		将 CLsearch.exe 拖入 CLaunch 页面中成为按钮  
-		打开 CLaunch 选项/事件: <CLaunch 启动时> 点击【注册】  
-		添加 CLsearch 所在页面，然后在对应行的项目列双击选择 CLsearch  
-		这就是让 CLaunch 启动后自动带起 CLsearch
+	　将 CLsearch.exe 拖入 CLaunch 页面中成为按钮  
+	　打开 CLaunch 选项/事件: <CLaunch 启动时> 点击【注册】  
+	　添加 CLsearch 所在页面，然后在对应行的项目列双击选择 CLsearch  
+	　这就是让 CLaunch 启动后自动带起 CLsearch
 
 ## 使用说明：
 (要修改热键，请自行编辑.ahk脚本)
