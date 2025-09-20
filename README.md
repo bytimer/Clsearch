@@ -8,16 +8,20 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 
 ## CLaunch 优化配置：
 1. 在 CLaunch 选项/其他：勾选【在相对路径中注册项目】
-<img width="460" height="648" alt="image" src="https://github.com/user-attachments/assets/bfff6fec-5d21-4f72-b9eb-4dac78c84c7d" />
+    <img width="460" height="648" alt="image" src="https://github.com/user-attachments/assets/bfff6fec-5d21-4f72-b9eb-4dac78c84c7d" />
 
 
 2. 将 CLsearch 文件夹放入 CLaunch.exe 所在文件夹中  
-   ➤最终路径是：CLaunch\CLsearch\CLsearch.exe，双击即可启动它  
+   ➤最终路径是：CLaunch\CLsearch\CLsearch.exe，双击即可启动它
+   <img width="384" height="487" alt="image" src="https://github.com/user-attachments/assets/5eb481fb-d2b9-4c1b-a89f-f1018c135eb1" />
+
    ➤随Claunch自动启动：  
 	　将 CLsearch.exe 拖入 CLaunch 页面中成为按钮  
 	　打开 CLaunch 选项/事件: <CLaunch 启动时> 点击【注册】  
 	　添加 CLsearch 所在页面，然后在对应行的项目列双击选择 CLsearch  
 	　这就是让 CLaunch 启动后自动带起 CLsearch
+    <img width="904" height="650" alt="image" src="https://github.com/user-attachments/assets/e6cc9124-2111-4c47-b860-845b984d7c1a" />
+
 
 ## 使用说明：
 (要修改热键，请自行编辑.ahk脚本)
