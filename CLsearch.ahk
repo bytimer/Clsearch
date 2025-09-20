@@ -22,7 +22,7 @@ CLaunch 优化配置：
 	在Claunch窗口激活时，按快捷键 Ctrl+F 弹出搜索窗口，可输入文本进行实时搜索。在搜索窗口按Ctrl+F则关闭。
 	如果在Claunch中未搜到按钮，按 回车键/Tab键 可用Everything进行搜索，结果也显示在列表控件中。
 	搜索窗口失去焦点后会自动关闭。Ctrl+T 可置顶保持不关闭，与点击右上角⛔按钮等同。
-	搜索历史保存在 RunLog.ini，可手动编辑、删除。
+	搜索历史保存在 [ 文档\CLsearch\RunLog.ini ]，可手动编辑、删除。
 	RunLog.ini 也记录了程序的启动次数，以便在列表框中把次数多的排序在上面。
 	用CLaunch当前端界面，添加新标签页，再添加按钮后 从Claunch.ini中复制到CLsearch.ini, 
 	这样可以添加不在Claunch界面中显示的自定义按钮项，启动脚本时预先加入全局按钮数组，只在本搜索框中可被搜到。
@@ -84,7 +84,8 @@ tipText .= "`nAutoHotkey v" A_AhkVersion
 A_IconTip := tipText ; 托盘图标提示内容
 
 CLsearch_ini := A_ScriptDir "\CLsearch.ini"
-RunLogIni := A_ScriptDir "\RunLog.ini" ; 记录搜索历史，程序的启动次数
+;RunLogIni := A_ScriptDir "\RunLog.ini" ; 记录搜索历史，程序的启动次数
+RunLogIni := A_MyDocuments "\CLsearch\RunLog.ini" ; 记录搜索历史，程序的启动次数
 CLfolder := A_ScriptDir "\.." ; Claunch.exe所在文件夹
 CLini := CLfolder "\Data\CLaunch.ini"
 
