@@ -20,7 +20,7 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 	　打开 CLaunch 选项/事件: <CLaunch 启动时> 点击【注册】  
 	　添加 CLsearch 所在页面，然后在对应行的项目列双击选择 CLsearch  
 	　这就是让 CLaunch 启动后自动带起 CLsearch
-<img width="904" height="650" alt="image" src="https://github.com/user-attachments/assets/e6cc9124-2111-4c47-b860-845b984d7c1a" />
+<img width="695" height="340" alt="image" src="https://github.com/user-attachments/assets/054c354e-4ef8-4f80-ae7f-9b6a92938059" />
 
 
 ## 使用说明：
