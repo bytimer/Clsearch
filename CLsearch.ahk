@@ -85,6 +85,8 @@ A_IconTip := tipText ; 托盘图标提示内容
 
 CLsearch_ini := A_ScriptDir "\CLsearch.ini"
 ;RunLogIni := A_ScriptDir "\RunLog.ini" ; 记录搜索历史，程序的启动次数
+if !FileExist(A_MyDocuments "\CLsearch")
+	DirCreate A_MyDocuments "\CLsearch"
 RunLogIni := A_MyDocuments "\CLsearch\RunLog.ini" ; 记录搜索历史，程序的启动次数
 CLfolder := A_ScriptDir "\.." ; Claunch.exe所在文件夹
 CLini := CLfolder "\Data\CLaunch.ini"
@@ -182,7 +184,7 @@ if ProcessExist("Claunch.exe") {
 	SplitPath CLaunchPath, , &CLfolder
 	CLini := CLfolder "\Data\CLaunch.ini"
 	CLsearch_ini := CLfolder "\CLsearch\CLsearch.ini"
-	RunLogIni := CLfolder "\CLsearch\RunLog.ini"
+	;RunLogIni := CLfolder "\CLsearch\RunLog.ini"
 }
 
 ReadRunLog(RunLogIni)
