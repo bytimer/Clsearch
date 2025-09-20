@@ -12,15 +12,19 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 
 
 2. 将 CLsearch 文件夹放入 CLaunch.exe 所在文件夹中  
-   ➤最终路径是：CLaunch\CLsearch\CLsearch.exe，双击即可启动它  
+   ➤最终路径是：CLaunch\CLsearch\CLsearch.exe，双击即可启动它
+<img width="384" height="487" alt="image" src="https://github.com/user-attachments/assets/5eb481fb-d2b9-4c1b-a89f-f1018c135eb1" />
+
    ➤随Claunch自动启动：  
 	　将 CLsearch.exe 拖入 CLaunch 页面中成为按钮  
 	　打开 CLaunch 选项/事件: <CLaunch 启动时> 点击【注册】  
 	　添加 CLsearch 所在页面，然后在对应行的项目列双击选择 CLsearch  
 	　这就是让 CLaunch 启动后自动带起 CLsearch
+<img width="695" height="340" alt="image" src="https://github.com/user-attachments/assets/054c354e-4ef8-4f80-ae7f-9b6a92938059" />
+
 
 ## 使用说明：
-(要修改热键，请自行编辑.ahk脚本)
+(要修改热键，请自行编辑.ahk脚本)  
 全局热键 Win+C 打开搜索窗口，窗口未置顶时失去焦点自动关闭  
 在Claunch窗口激活时，按快捷键 Ctrl+F 弹出搜索窗口，可输入文本进行实时搜索。在搜索窗口按Ctrl+F则关闭。  
 如果在Claunch中未搜到按钮，按 回车键/Tab键 会调用Everything搜索该名称的可执行文件，结果也显示在列表控件中。  
