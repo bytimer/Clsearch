@@ -22,7 +22,7 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 在Claunch窗口激活时，按快捷键 Ctrl+F 弹出搜索窗口，可输入文本进行实时搜索。在搜索窗口按Ctrl+F则关闭。  
 如果在Claunch中未搜到按钮，按 回车键/Tab键 会调用Everything搜索该名称的可执行文件，结果也显示在列表控件中。  
 搜索窗口失去焦点后会自动关闭。Ctrl+T 可置顶保持不关闭，与点击右上角⛔按钮等同。  
-搜索历史保存在 RunLog.ini，可手动编辑、删除。  
+搜索历史保存在 [ 文档\CLsearch\RunLog.ini ]，可手动编辑、删除。  
 RunLog.ini 也记录了程序的启动次数，以便在列表框中把次数多的排序在上面。  
 可以把 CLaunch 当作添加按钮配置的前端界面来用，添加新标签页、添加按钮后 从 Claunch.ini中 复制到 CLsearch.ini,   
 这样可以添加不在Claunch界面中显示的自定义按钮项，启动脚本时预先加入全局按钮数组，只在本搜索框中可被搜到。  
