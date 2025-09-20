@@ -8,7 +8,8 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 
 ## CLaunch 优化配置：
 1. 在 CLaunch 选项/其他：勾选【在相对路径中注册项目】
-<img width="929" height="1237" alt="设置" src="https://github.com/user-attachments/assets/deefec93-e6a1-4041-8e56-62e1691961a9" />
+<img width="460" height="648" alt="image" src="https://github.com/user-attachments/assets/bfff6fec-5d21-4f72-b9eb-4dac78c84c7d" />
+
 
 2. 将 CLsearch 文件夹放入 CLaunch.exe 所在文件夹中  
    ➤最终路径是：CLaunch\CLsearch\CLsearch.exe，双击即可启动它  
