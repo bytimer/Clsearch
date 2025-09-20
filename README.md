@@ -24,7 +24,7 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 
 
 ## 使用说明：
-(要修改热键，请自行编辑.ahk脚本)
+(要修改热键，请自行编辑.ahk脚本)  
 全局热键 Win+C 打开搜索窗口，窗口未置顶时失去焦点自动关闭  
 在Claunch窗口激活时，按快捷键 Ctrl+F 弹出搜索窗口，可输入文本进行实时搜索。在搜索窗口按Ctrl+F则关闭。  
 如果在Claunch中未搜到按钮，按 回车键/Tab键 会调用Everything搜索该名称的可执行文件，结果也显示在列表控件中。  
