@@ -5,8 +5,10 @@
 ╔══════════════════════════════════════════════════════════════
 	CLsearch 为搜索CLaunch中的按钮而生的AHK2脚本，代替它的Ctrl+F查找，支持拼音简拼、全拼搜索
 	An alternative tool for the Ctrl+F search function in CLaunch.
+	https://github.com/bytimer/Clsearch
 	
 	v1.0 2025.9.1
+	v1.1 2026.3.12 适配 Claunch v4.20的配置文件变化，Position → ViewMode1Pos
 
 CLaunch 优化配置：
 	①在 CLaunch 选项/其他：勾选【在相对路径中注册项目】
@@ -305,8 +307,12 @@ AddButtons(iniPath){
 
 			Switch Trim(temp[1])
 			{
-				Case "Position": 
+				Case "Position":  ; v4.10 之前的处理方式
 					btn.Position := tabPage " → " (temp[2]+1)
+				
+				Case "ViewMode1Pos":  ; 2026.3.12发布的 v4.20 进行了布局改进，没有Position属性了，改为坐标位置 ViewMode1Pos=0,6
+					tempPos := StrSplit(temp[2], ",", , 2) ; 分割为纵、横坐标，默认以0,0开始，需要+1
+					btn.Position := tabPage " → [" tempPos[1]+1 "," tempPos[2]+1 "]"
 
 				;以下是对 Button 类型代码的解析，不尽正确，但差不多
 				; Type=40000001 Type=e0410001
