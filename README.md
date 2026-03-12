@@ -6,6 +6,7 @@ An alternative tool for the Ctrl+F search function in CLaunch.
 <img width="714" height="174" alt="image" src="https://github.com/user-attachments/assets/6f74eb05-f595-4bf8-b8e0-3d250b9cfe82" />
 
 
+
 ## CLaunch 优化配置：
 1. 在 CLaunch 选项/其他：勾选【在相对路径中注册项目】
 <img width="460" height="648" alt="image" src="https://github.com/user-attachments/assets/bfff6fec-5d21-4f72-b9eb-4dac78c84c7d" />

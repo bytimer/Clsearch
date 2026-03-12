@@ -6,7 +6,8 @@
 	CLsearch 为搜索CLaunch中的按钮而生的AHK2脚本，代替它的Ctrl+F查找，支持拼音简拼、全拼搜索
 	An alternative tool for the Ctrl+F search function in CLaunch.
 	https://github.com/bytimer/Clsearch
-	
+
+	v0.9 2025.8.20
 	v1.0 2025.9.1
 	v1.1 2026.3.12 适配 Claunch v4.20的配置文件变化，Position → ViewMode1Pos
 
