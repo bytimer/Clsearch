@@ -10,6 +10,7 @@
 	v0.9 2025.8.20
 	v1.0 2025.9.1
 	v1.1 2026.3.12 适配 Claunch v4.20的配置文件变化，Position → ViewMode1Pos
+	v1.2 2026.3.21 对 ProcessGetPath("Claunch.exe") 增加容错处理
 
 CLaunch 优化配置：
 	①在 CLaunch 选项/其他：勾选【在相对路径中注册项目】
@@ -183,11 +184,13 @@ ForceKeysUp(){
 
 ;════读取配置添加按钮 开始════════════════════════════════════════════{{{1
 if ProcessExist("Claunch.exe") {
-	CLaunchPath := ProcessGetPath("Claunch.exe")
-	SplitPath CLaunchPath, , &CLfolder
-	CLini := CLfolder "\Data\CLaunch.ini"
-	CLsearch_ini := CLfolder "\CLsearch\CLsearch.ini"
-	;RunLogIni := CLfolder "\CLsearch\RunLog.ini"
+	try {
+		CLaunchPath := ProcessGetPath("Claunch.exe")
+		SplitPath CLaunchPath, , &CLfolder
+		CLini := CLfolder "\Data\CLaunch.ini"
+		;CLsearch_ini := CLfolder "\CLsearch\CLsearch.ini"
+		;RunLogIni := CLfolder "\CLsearch\RunLog.ini"
+	}
 }
 
 ReadRunLog(RunLogIni)
